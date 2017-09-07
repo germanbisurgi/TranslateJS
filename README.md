@@ -2,6 +2,10 @@
 
 Simple translation library.
 
+[DEMO](https://germanbisurgi.github.io/TranslateJS/.)
+
+
+
 ## Usage
 
 To make an element translatable use the `data-translate` attribute with the value
