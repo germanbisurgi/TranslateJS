@@ -1,0 +1,13 @@
+.nav {
+    background: #24292E;
+    padding: 12px;
+}
+
+.language {
+    color: #ccc;
+    text-align: center;
+}
+
+.language:hover {
+    color: #fff;
+}
