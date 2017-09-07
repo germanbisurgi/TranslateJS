@@ -7,7 +7,9 @@ var Translate = function (language, content) {
 
 
 	self.getTranslation = function (path) {
-		return self.content[self.language][path] || false;
+		if 	(self.content[self.language]) {
+			return self.content[self.language][path] || false;
+		}
 	};
 
 	self.translate = function () {
