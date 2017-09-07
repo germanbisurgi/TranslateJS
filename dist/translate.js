@@ -47,7 +47,7 @@ var Translate = function (language, fallbackLanguage, content) {
 		translatables.forEach(function (translatable) {
 			var path = translatable.dataset.translate;
 			var translation = self.getTranslation(path);
-			if (translation.status === 3) {
+			if (translation.status === 3 || translation.status === 2) {
 				orphans.push(translatable);
 			}
 

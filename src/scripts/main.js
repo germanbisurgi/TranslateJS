@@ -12,11 +12,11 @@ function queryString(name, url) {
 var content = {
 	"en": {
 		"howToTitle": "How to",
-		"howToText": "To make an element translatable use the data-translate attribute with the translation path as value. <br /> Ex: <code>data-translate=\"content come here\"</code>.",
+		"howToText": "To make an element translatable use the data-translate attribute with the translation path as value. <br /> Ex: <code>data-translate=\"intro\"</code>.",
 	},
 	"es": {
 		"howToTitle": "Cómo",
-		"howToText": "Para hacer un elemento traducible utilice el atributo data-translate con el path de la traduccion como valor. <br /> Ejemplo: <code> data-translate=\"texto aqui\"</code>.",
+		"howToText": "Para hacer un elemento traducible utilice el atributo data-translate con el path de la traduccion como valor. <br /> Ejemplo: <code> data-translate=\"intro\"</code>.",
 	},
 	"it": {
 	}
