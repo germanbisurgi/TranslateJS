@@ -8,12 +8,12 @@ To make an element translatable use the `data-translate` attribute with the valu
 being the string you want to translate.
 
 
-    ```js
+```js
     <p data-translate="wheel"></p>
     <p data-translate="banana"></p>
     <p data-translate="yellow"></p>
     <p data-translate="red"></p>
-    ```
+```
     
 Create an instance of TranslateJS passing the target language and the translations
 json object.
