@@ -23,13 +23,13 @@ code {
 
 h1 {
     font-size: 36px;
+    margin: 0 0 20px 0;
 }
 h2 {
     font-size: 30px;
-}
-h3 {
-    font-size: 24px;
+    margin: 0 0 0 0;
 }
 p {
     font-size: 14px;
+    margin: 0 0 10px 0;
 }
