@@ -43,8 +43,8 @@ language it will fallback to the fallback language.
 ## Search for untranslated contents
 
 TranslateJS have a `scan()` method that will return an Array of elements without
-the respective target language translation. You can then console.log them or
-change styles to make then more visible
+the respective target language translation. Console.log them or change their 
+styles to make then more visible.
 
 ```js
 T.scan().forEach(function (orphan) {
