@@ -9,18 +9,23 @@
 
 <body>
 
-    <div class="nav row">
-        <a class="language xs-4" href="?language=en">en</a>
-        <a class="language xs-4" href="?language=es">es</a>
-        <a class="language xs-4" href="?language=it">it</a>
+<div class="nav">
+    <div class="row container">
+        <a class="nav-item xs-3" href="?language=en">TranslateJS</a>
+        <a class="nav-item xs-1 xs-off-6" href="?language=en">en</a>
+        <a class="nav-item xs-1" href="?language=es">es</a>
+        <a class="nav-item xs-1" href="?language=it">it</a>
     </div>
+</div>
 
-    <p data-translate="wheel"></p>
-    <p data-translate="banana"></p>
-    <p data-translate="yellow"></p>
-    <p data-translate="red"></p>
 
-    
+<div class="row container">
+    <p class="xs-12" data-translate="wheel"></p>
+    <p class="xs-12" data-translate="banana"></p>
+    <p class="xs-12" data-translate="yellow"></p>
+    <p class="xs-12" data-translate="red"></p>
+</div>
+
 	<script src="dist/translate.js"></script>
     <script src="src/scripts/main.js"></script>
 </body>

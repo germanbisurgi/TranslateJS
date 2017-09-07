@@ -1,13 +1,17 @@
+.container {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
 .nav {
     background: #24292E;
-    padding: 12px;
+    padding: 12px 0;
 }
 
-.language {
+.nav-item {
     color: #ccc;
-    text-align: center;
 }
 
-.language:hover {
+.nav-item:hover {
     color: #fff;
 }
