@@ -8,29 +8,29 @@ To make an element translatable use the `data-translate` attribute with the valu
 being the string you want to translate.
 
 
-```js
-    <p data-translate="wheel"></p>
-    <p data-translate="banana"></p>
-    <p data-translate="yellow"></p>
-    <p data-translate="red"></p>
+```html
+<p data-translate="wheel"></p>
+<p data-translate="banana"></p>
+<p data-translate="yellow"></p>
+<p data-translate="red"></p>
 ```
     
 Create an instance of TranslateJS passing the target language and the translations
 json object.
     
 ```js
-    var T = new Translate('en', {
-    	"en": {
-    		"wheel": "wheel",
-    		"banana": "banana"
-    	},
-    	"es": {
-    		"wheel": "rueda",
-    		"banana": "platano",
-    		"yellow": "amarillo",
-    		"red": "rojo"
-    	}
-    });
+var T = new Translate('en', {
+    "en": {
+        "wheel": "wheel",
+        "banana": "banana"
+    },
+    "es": {
+        "wheel": "rueda",
+        "banana": "platano",
+        "yellow": "amarillo",
+        "red": "rojo"
+    }
+});
 ```
 
 TranslateJS will retrieve all translatables and inject the targetted translation
@@ -44,8 +44,8 @@ the respective target language translation. You can then console.log them or
 change styles to make then more visible
 
 ```js
-    T.scan().forEach(function (orphan) {
-    	orphan.style = "color: red";
-    	console.log(orphan);
-    });
+T.scan().forEach(function (orphan) {
+    orphan.style = "color: red";
+    console.log(orphan);
+});
 ```
