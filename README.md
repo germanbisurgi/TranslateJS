@@ -2,7 +2,7 @@
 
 Simple translation library.
 
-[DEMO](https://germanbisurgi.github.io/TranslateJS/?language=en.)
+[DEMO](https://germanbisurgi.github.io/TranslateJS/?language=en)
 
 
 
