@@ -8,9 +8,8 @@ Simple translation library.
 
 ## Usage
 
-To make an element translatable use the `data-translate` attribute with the value
-being the string you want to translate.
-
+To make an element translatable use the `data-translate` attribute with the
+translation path as value. 
 
 ```html
 <p data-translate="wheel"></p>
@@ -19,11 +18,11 @@ being the string you want to translate.
 <p data-translate="red"></p>
 ```
     
-Create an instance of TranslateJS passing the target language and the translations
-json object.
+Create an instance of TranslateJS passing the target language, the fallback
+language and the translations json object.
     
 ```js
-var T = new Translate('en', {
+var T = new Translate('es', 'en', {
     "en": {
         "wheel": "wheel",
         "banana": "banana"
@@ -37,9 +36,9 @@ var T = new Translate('en', {
 });
 ```
 
-TranslateJS will retrieve all translatables and inject the targetted translation
-if available in the json object. If no translation is present for the targetted
-language it will use the value passed in the data-translate attribute.
+TranslateJS will retrieve all translatables and inject the target translation
+if available in the json object. If no translation is present for the target
+language it will fallback to the fallback language.
 
 ## Search for untranslated contents
 

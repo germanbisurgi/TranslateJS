@@ -9,22 +9,24 @@
 
 <body>
 
-<div class="nav">
-    <div class="row container">
-        <a class="nav-item xs-3" href="?language=en">TranslateJS</a>
-        <a class="nav-item xs-1 xs-off-6" href="?language=en">en</a>
-        <a class="nav-item xs-1" href="?language=es">es</a>
-        <a class="nav-item xs-1" href="?language=it">it</a>
+    <div class="nav">
+        <div class="row container">
+            <a class="nav-item xs-3" href="?language=en">TranslateJS</a>
+            <a class="nav-item xs-1 xs-off-6" href="?language=en">en</a>
+            <a class="nav-item xs-1" href="?language=es">es</a>
+            <a class="nav-item xs-1" href="?language=it">it</a>
+        </div>
     </div>
-</div>
 
+    <div class="container">
+        <h1>TranslateJS</h1>
 
-<div class="row container">
-    <p class="xs-12" data-translate="wheel"></p>
-    <p class="xs-12" data-translate="banana"></p>
-    <p class="xs-12" data-translate="yellow"></p>
-    <p class="xs-12" data-translate="red"></p>
-</div>
+        <h2 data-translate="howToTitle"></h2>
+        <p data-translate="howToText">
+            <span class="code" data-translate="howToExample"></span>
+        </p>
+    </div>
+
 
 	<script src="dist/translate.js"></script>
     <script src="src/scripts/main.js"></script>

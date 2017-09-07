@@ -15,3 +15,21 @@
 .nav-item:hover {
     color: #fff;
 }
+
+code {
+    color: green;
+    font-family: monospace;
+}
+
+h1 {
+    font-size: 36px;
+}
+h2 {
+    font-size: 30px;
+}
+h3 {
+    font-size: 24px;
+}
+p {
+    font-size: 14px;
+}

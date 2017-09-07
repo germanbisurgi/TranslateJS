@@ -11,20 +11,20 @@ function queryString(name, url) {
 
 var content = {
 	"en": {
-		"wheel": "wheel",
-		"banana": "banana"
+		"howToTitle": "How to",
+		"howToText": "To make an element translatable use the data-translate attribute with the translation path as value. <br /> Ex: <code>data-translate=\"content come here\"</code>.",
 	},
 	"es": {
-		"wheel": "rueda",
-		"banana": "platano",
-		"yellow": "amarillo",
-		"red": "rojo"
+		"howToTitle": "Cómo",
+		"howToText": "Para hacer un elemento traducible utilice el atributo data-translate con el path de la traduccion como valor. <br /> Ejemplo: <code> data-translate=\"texto aqui\"</code>.",
+	},
+	"it": {
 	}
 };
 
 var language = queryString('language');
 
-var T = new Translate(language, content);
+var T = new Translate(language, 'en', content);
 
 T.scan().forEach(function (orphan) {
 	orphan.style = "color: red";
