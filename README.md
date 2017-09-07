@@ -18,7 +18,7 @@ being the string you want to translate.
 Create an instance of TranslateJS passing the target language and the translations
 json object.
     
-    ```js
+```js
     var T = new Translate('en', {
     	"en": {
     		"wheel": "wheel",
@@ -31,7 +31,7 @@ json object.
     		"red": "rojo"
     	}
     });
-    ```
+```
 
 TranslateJS will retrieve all translatables and inject the targetted translation
 if available in the json object. If no translation is present for the targetted
@@ -43,9 +43,9 @@ TranslateJS have a `scan()` method that will return an Array of elements without
 the respective target language translation. You can then console.log them or
 change styles to make then more visible
 
-    ```js
+```js
     T.scan().forEach(function (orphan) {
     	orphan.style = "color: red";
     	console.log(orphan);
     });
-    ```
+```
